@@ -10,4 +10,5 @@ rm /tmp/my_first_directory/betty -> deletes the file betty from /tmp/my_first_di
 rmdir /tmp/my_first_directory -> deletes the directory my_first_directory from /tmp/
 cd - -> changes the directory to the previous one
 ls -l . .. /boot -> lists the contents of the current directory, the parent of the current director and boot directory
-file /tmp/iamafile -> prints what type of file iamafile is   
+file /tmp/iamafile -> prints what type of file iamafile is
+ln -s /bin/ls ./_ls_ -> creates a symbolic link _ls_ to /bin/ls   
