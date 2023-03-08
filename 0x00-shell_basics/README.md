@@ -11,4 +11,5 @@ rmdir /tmp/my_first_directory -> deletes the directory my_first_directory from /
 cd - -> changes the directory to the previous one
 ls -l . .. /boot -> lists the contents of the current directory, the parent of the current director and boot directory
 file /tmp/iamafile -> prints what type of file iamafile is
-ln -s /bin/ls ./_ls_ -> creates a symbolic link _ls_ to /bin/ls   
+ln -s /bin/ls __ls__ -> creates a symbolic link _ls_ to /bin/ls
+cp -i *.html ../   
