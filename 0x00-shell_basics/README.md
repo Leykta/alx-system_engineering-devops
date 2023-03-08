@@ -6,4 +6,5 @@ ls -la -> lists the contents including hidden files that start with . of the cur
 ls -all -n -> lists the contents including hidden files that start with . of the current directory in long format with their owner and group IDs numerically
 mkdir /tmp/my_first_directory -> creates a directory called my_first_directory in the /tmp/ directory
 mv betty /tmp/my_first_directory -> moves the file betty from /tmp/ to /tmp/my_first_directory
-rm /tmp/my_first_directory/betty -> delete the file betty from /tmp/my_first_directory   
+rm /tmp/my_first_directory/betty -> deletes the file betty from /tmp/my_first_directory
+rmdir /tmp/my_first_directory -> deletes the directory my_first_directory from /tmp/   
