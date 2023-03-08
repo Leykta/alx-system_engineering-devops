@@ -8,4 +8,5 @@ mkdir /tmp/my_first_directory -> creates a directory called my_first_directory i
 mv betty /tmp/my_first_directory -> moves the file betty from /tmp/ to /tmp/my_first_directory
 rm /tmp/my_first_directory/betty -> deletes the file betty from /tmp/my_first_directory
 rmdir /tmp/my_first_directory -> deletes the directory my_first_directory from /tmp/
-cd - -> changes the directory to the previous one   
+cd - -> changes the directory to the previous one
+ls -l ./ ../ /boot/ -> lists the contents of the current directory, the parent of the current director and boot directory   
