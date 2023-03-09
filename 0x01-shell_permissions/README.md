@@ -1,6 +1,7 @@
-1.su betty -> switches the current user to the user betty\n
-2.whoami -> prints the name of the current user\n
-3.groups -> prints names of groups that the current user is part of\n
-4.sudo chown betty hello -> changes the ownership of the file hello to betty\n
-5.touch empty -> creates an empty file called empty\n
-6.chmod 744 hello ->  adds execute permission to the owner of the file hello\n
+1.su betty -> switches the current user to the user betty
+2.whoami -> prints the name of the current user
+3.groups -> prints names of groups that the current user is part of
+4.sudo chown betty hello -> changes the ownership of the file hello to betty
+5.touch empty -> creates an empty file called empty
+6.chmod 744 hello ->  adds execute permission to the owner of the file hello
+7.chmod 754 hello -> adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
