@@ -7,3 +7,4 @@
 7.chmod 754 hello -> adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
 8.chmod 755 hello -> adds execution permission to the owner, the group owner and the other users, to the file hello
 9.chmod 007 hello -> adds no permission at all to the owner, the group owner and adds all the permissions to others
+10.chmod 753 hello -> adds all permissions to the  owner, read and execute permission to group owner and write and execute permission to others
