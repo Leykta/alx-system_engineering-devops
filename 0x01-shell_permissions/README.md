@@ -5,3 +5,4 @@
 5.touch empty -> creates an empty file called empty
 6.chmod 744 hello ->  adds execute permission to the owner of the file hello
 7.chmod 754 hello -> adds execute permission to the owner and the group owner, and read permission to other users, to the file hello
+8.chmod 755 hello -> adds execution permission to the owner, the group owner and the other users, to the file hello
